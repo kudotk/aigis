@@ -78,3 +78,7 @@ lang_prefix: 'language-'
 helper_options:
   disable_link_index: true
   renderTemplateJSON: false
+
+# If you want the HTML codeblock too, set true.
+# @note: only support when template_engine option is jade
+codeblock_with_html: true

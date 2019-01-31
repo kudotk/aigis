@@ -107,3 +107,13 @@ Then you get following output.
 ## More
 
 See the [documents](https://pxgrid.github.io/aigis/docs/en/)
+
+## Additional Option
+
+aigis_config.yml
+
+```
+# If you want the HTML codeblock too, set true.
+# @note: only support when template_engine option is jade
+codeblock_with_html: true
+```
